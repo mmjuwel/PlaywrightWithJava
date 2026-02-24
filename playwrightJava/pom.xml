@@ -26,6 +26,21 @@
 			<scope>compile</scope>
 		</dependency>
 
+
 	</dependencies>
+	
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<mainClass>com.microsoft.playwright.CLI</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
