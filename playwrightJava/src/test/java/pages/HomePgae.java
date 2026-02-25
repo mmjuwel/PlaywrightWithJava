@@ -10,6 +10,8 @@ public class HomePgae {
 	private final String productMenu = "[href='/products']";
 	private final String logoutMenu = "[href='/logout']";
 	private final String signupOrLoginMenu = "[href='/login']";
+	private final String loggedinUserName = "li:nth-of-type(10) > [contenteditable='false']>b";  
+
 
 	
 	public HomePgae(Page page) {
@@ -26,7 +28,12 @@ public class HomePgae {
 	public void clickOnLogoutMenu() {
 		page.click(logoutMenu);
 	}
+	
 	public void clickOnSignupOrLoginMenu() {
 		page.click(signupOrLoginMenu);
+	}
+	
+	public String getLoggedInUserName() {
+		return page.textContent(loggedinUserName);
 	}
 }
