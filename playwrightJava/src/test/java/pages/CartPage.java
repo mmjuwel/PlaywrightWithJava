@@ -2,7 +2,7 @@ package pages;
 
 import com.microsoft.playwright.Page;
 
-public class cartPage {
+public class CartPage {
 
 	private Page page;
 	
@@ -11,7 +11,7 @@ public class cartPage {
 	private final String procedeToCheckoutButton = ".check_out";
 	private final String singupOrLoginButton = "[href='/login']>u";
 	
-	public cartPage(Page page) {
+	public CartPage(Page page) {
 		this.page = page;
 	}
 	

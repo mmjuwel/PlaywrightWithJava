@@ -2,13 +2,13 @@ package pages;
 
 import com.microsoft.playwright.Page;
 
-public class checkoutPage {
+public class CheckoutPage {
 
 	private Page page;
 	
 	private String placeOrderButton = ".check_out";
 	
-	public checkoutPage(Page page) {
+	public CheckoutPage(Page page) {
 		// TODO Auto-generated constructor stub
 		this.page = page;
 	}

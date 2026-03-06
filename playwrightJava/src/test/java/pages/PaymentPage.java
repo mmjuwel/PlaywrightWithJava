@@ -2,7 +2,7 @@ package pages;
 
 import com.microsoft.playwright.Page;
 
-public class paymentPage {
+public class PaymentPage {
 	
 	private Page page;
 	
@@ -17,7 +17,7 @@ public class paymentPage {
 	
 	
 
-	public paymentPage(Page page) {
+	public PaymentPage(Page page) {
 		this.page = page;
 	}
 	
