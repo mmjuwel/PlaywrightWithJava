@@ -14,7 +14,7 @@ public class LoginPage {
 	public LoginPage(Page page) {
 		this.page = page;
 
-		this.emailTextBox = page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("email"));
+		this.emailTextBox = page.locator("form").filter(new Locator.FilterOptions().setHasText("Login")).getByPlaceholder("Email Address");
 		this.passwoardTextBox = page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("password"));
 		this.loginButton = page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Login"));
 	}
