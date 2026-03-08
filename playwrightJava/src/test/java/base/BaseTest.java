@@ -24,6 +24,9 @@ public class BaseTest {
 		playwright = Playwright.create();
 		browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(1000));
 		page = browser.newPage();
+
+		page.navigate("https://automationexercise.com/");
+
 	}
 
 	@AfterMethod(alwaysRun = true)
