@@ -103,12 +103,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginTestWithInvalidCradentials(mansurworkplace@yahoo.com, 123456)">loginTestWithInvalidCradentials(mansurworkplace@yahoo.com, 123456)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginTestWithInvalidCradentials(mansurworkplace@gmail.com, 121212)">loginTestWithInvalidCradentials(mansurworkplace@gmail.com, 121212)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginTestWithInvalidCradentials(mansurworkplace@gmail.com, 121212)">loginTestWithInvalidCradentials(mansurworkplace@gmail.com, 121212)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginTestWithInvalidCradentials(mansurworkplace@yahoo.com, 123456)">loginTestWithInvalidCradentials(mansurworkplace@yahoo.com, 123456)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -141,18 +141,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTestWithInvalidCradentials(mansurworkplace@yahoo.com, 123456)">
-                  </a> <!-- loginTestWithInvalidCradentials(mansurworkplace@yahoo.com, 123456) -->
-                  <span class="method-name">loginTestWithInvalidCradentials</span>
-                  <span class="parameters">(mansurworkplace@yahoo.com,123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="loginTestWithInvalidCradentials(mansurworkplace@gmail.com, 121212)">
                   </a> <!-- loginTestWithInvalidCradentials(mansurworkplace@gmail.com, 121212) -->
                   <span class="method-name">loginTestWithInvalidCradentials</span>
                   <span class="parameters">(mansurworkplace@gmail.com,121212)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestWithInvalidCradentials(mansurworkplace@yahoo.com, 123456)">
+                  </a> <!-- loginTestWithInvalidCradentials(mansurworkplace@yahoo.com, 123456) -->
+                  <span class="method-name">loginTestWithInvalidCradentials</span>
+                  <span class="parameters">(mansurworkplace@yahoo.com,123456)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -183,11 +183,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sanity_Chrome_Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chromium&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.LoginTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Sanity_Chrome_Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,7 +200,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Sanity_Chrome_Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -229,24 +230,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTestWithValidCradentials')
 data.setCell(0, 2, 'tests.LoginTest')
-data.setCell(0, 3, 5628);
+data.setCell(0, 3, 1463);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTestWithValidCradentials')
 data.setCell(1, 2, 'tests.LoginTest')
-data.setCell(1, 3, 5622);
+data.setCell(1, 3, 1433);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginTestWithInvalidCradentials')
 data.setCell(2, 2, 'tests.LoginTest')
-data.setCell(2, 3, 5098);
+data.setCell(2, 3, 969);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'loginTestWithInvalidCradentials')
 data.setCell(3, 2, 'tests.LoginTest')
-data.setCell(3, 3, 4920);
+data.setCell(3, 3, 946);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -274,52 +275,52 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
+                <span class="method-name">setup(chromium)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTestWithInvalidCradentials(mansurworkplace@gmail.com, 121212)</span>
-                <span class="method-start">15549 ms</span>
+                <span class="method-start">11127 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20660 ms</span>
+                <span class="method-start">12100 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">21236 ms</span>
+                <span class="method-name">setup(chromium)</span>
+                <span class="method-start">12460 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTestWithInvalidCradentials(mansurworkplace@yahoo.com, 123456)</span>
-                <span class="method-start">27011 ms</span>
+                <span class="method-start">15832 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31937 ms</span>
+                <span class="method-start">16781 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">32448 ms</span>
+                <span class="method-name">setup(chromium)</span>
+                <span class="method-start">17163 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTestWithValidCradentials(mansurworkplace@gmail.com, 123456)</span>
-                <span class="method-start">37259 ms</span>
+                <span class="method-start">20348 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42883 ms</span>
+                <span class="method-start">21783 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">43348 ms</span>
+                <span class="method-name">setup(chromium)</span>
+                <span class="method-start">22147 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTestWithValidCradentials(mansurworkplace@gmail.com, 123456)</span>
-                <span class="method-start">48249 ms</span>
+                <span class="method-start">25768 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">53886 ms</span>
+                <span class="method-start">27234 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

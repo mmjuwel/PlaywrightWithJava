@@ -1,6 +1,7 @@
 <suite name="Suite">
 	
-	<test name="Test">
+	<test name="Sanity_Chrome_Test">
+	<parameter name="browser" value="chromium"/>
 		<classes>
 			<class name="tests.LoginTest" />
 		</classes>

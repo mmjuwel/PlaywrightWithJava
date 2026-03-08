@@ -2,16 +2,23 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-08T11:10:36 GMT+06:00" name="Suite" finished-at="2026-03-08T11:11:30 GMT+06:00" duration-ms="54355">
+  <suite started-at="2026-03-08T18:53:46 GMT+06:00" name="Suite" finished-at="2026-03-08T18:54:14 GMT+06:00" duration-ms="27643">
     <groups>
     </groups>
-    <test started-at="2026-03-08T11:10:36 GMT+06:00" name="Test" finished-at="2026-03-08T11:11:30 GMT+06:00" duration-ms="54355">
+    <test started-at="2026-03-08T18:53:46 GMT+06:00" name="Sanity_Chrome_Test" finished-at="2026-03-08T18:54:14 GMT+06:00" duration-ms="27643">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:10:36 GMT+06:00" name="setup" finished-at="2026-03-08T11:10:51 GMT+06:00" duration-ms="15547" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:53:46 GMT+06:00" name="setup" finished-at="2026-03-08T18:53:57 GMT+06:00" duration-ms="11124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTestWithInvalidCradentials(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:10:51 GMT+06:00" name="loginTestWithInvalidCradentials" data-provider="loginInvalidData" finished-at="2026-03-08T11:10:56 GMT+06:00" duration-ms="5098" status="PASS">
+        <test-method signature="loginTestWithInvalidCradentials(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:53:57 GMT+06:00" name="loginTestWithInvalidCradentials" data-provider="loginInvalidData" finished-at="2026-03-08T18:53:58 GMT+06:00" duration-ms="969" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +34,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestWithInvalidCradentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:10:56 GMT+06:00" name="tearDown" finished-at="2026-03-08T11:10:57 GMT+06:00" duration-ms="574" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:53:58 GMT+06:00" name="tearDown" finished-at="2026-03-08T18:53:58 GMT+06:00" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:10:57 GMT+06:00" name="setup" finished-at="2026-03-08T11:11:03 GMT+06:00" duration-ms="5775" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:53:58 GMT+06:00" name="setup" finished-at="2026-03-08T18:54:02 GMT+06:00" duration-ms="3371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTestWithInvalidCradentials(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:11:03 GMT+06:00" name="loginTestWithInvalidCradentials" data-provider="loginInvalidData" finished-at="2026-03-08T11:11:08 GMT+06:00" duration-ms="4920" status="PASS">
+        <test-method signature="loginTestWithInvalidCradentials(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:54:02 GMT+06:00" name="loginTestWithInvalidCradentials" data-provider="loginInvalidData" finished-at="2026-03-08T18:54:03 GMT+06:00" duration-ms="946" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +65,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestWithInvalidCradentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:11:08 GMT+06:00" name="tearDown" finished-at="2026-03-08T11:11:08 GMT+06:00" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:54:03 GMT+06:00" name="tearDown" finished-at="2026-03-08T18:54:03 GMT+06:00" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:11:08 GMT+06:00" name="setup" finished-at="2026-03-08T11:11:13 GMT+06:00" duration-ms="4811" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:54:03 GMT+06:00" name="setup" finished-at="2026-03-08T18:54:06 GMT+06:00" duration-ms="3185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTestWithValidCradentials(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:11:13 GMT+06:00" name="loginTestWithValidCradentials" data-provider="loginValidData" finished-at="2026-03-08T11:11:19 GMT+06:00" duration-ms="5622" status="PASS">
+        <test-method signature="loginTestWithValidCradentials(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:54:06 GMT+06:00" name="loginTestWithValidCradentials" data-provider="loginValidData" finished-at="2026-03-08T18:54:08 GMT+06:00" duration-ms="1433" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,15 +96,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestWithValidCradentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:11:19 GMT+06:00" name="tearDown" finished-at="2026-03-08T11:11:19 GMT+06:00" duration-ms="463" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:54:08 GMT+06:00" name="tearDown" finished-at="2026-03-08T18:54:08 GMT+06:00" duration-ms="364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:11:19 GMT+06:00" name="setup" finished-at="2026-03-08T11:11:24 GMT+06:00" duration-ms="4900" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:54:08 GMT+06:00" name="setup" finished-at="2026-03-08T18:54:12 GMT+06:00" duration-ms="3620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTestWithValidCradentials(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:11:24 GMT+06:00" name="loginTestWithValidCradentials" data-provider="loginValidData" finished-at="2026-03-08T11:11:30 GMT+06:00" duration-ms="5628" status="PASS">
+        <test-method signature="loginTestWithValidCradentials(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:54:12 GMT+06:00" name="loginTestWithValidCradentials" data-provider="loginValidData" finished-at="2026-03-08T18:54:13 GMT+06:00" duration-ms="1463" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,11 +127,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestWithValidCradentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5ae50ce6]" started-at="2026-03-08T11:11:30 GMT+06:00" name="tearDown" finished-at="2026-03-08T11:11:30 GMT+06:00" duration-ms="431" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@49d904ec]" started-at="2026-03-08T18:54:13 GMT+06:00" name="tearDown" finished-at="2026-03-08T18:54:13 GMT+06:00" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
-    </test> <!-- Test -->
+    </test> <!-- Sanity_Chrome_Test -->
   </suite> <!-- Suite -->
 </testng-results>
