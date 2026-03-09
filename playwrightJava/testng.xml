@@ -1,7 +1,9 @@
 <suite name="Suite">
-	
+	<listeners>
+		<listener class-name="listeners.TestListener" />
+	</listeners>
 	<test name="Sanity_Chrome_Test">
-	<parameter name="browser" value="chromium"/>
+		<parameter name="browser" value="chromium" />
 		<classes>
 			<class name="tests.LoginTest" />
 		</classes>
