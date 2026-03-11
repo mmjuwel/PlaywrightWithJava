@@ -15,6 +15,13 @@ public class TestListener implements ITestListener {
         int failed = context.getFailedTests().size();
         int skipped = context.getSkippedTests().size();
         int total = passed + failed + skipped;
+        
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
 
         EmailUtil.sendEmailReport(total, passed, failed, skipped);
 

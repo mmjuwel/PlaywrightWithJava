@@ -11,5 +11,5 @@
  * run . 
  * mvn clean test -Dbrowser=chromium
  * allure serve target/allure-results
- * 
+ *  mvn clean test -Dsurefire.suiteXmlFiles=testng.xml && allure serve target/allure-results
  */
