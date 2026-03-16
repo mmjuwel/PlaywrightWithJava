@@ -86,8 +86,12 @@ PlaywrightJavaAutomation
 
 ## Allure Report
 
+![Allure Dashboard](https://github.com/mmjuwel/PlaywrightWithJava/blob/main/Images/Allure%20Dashboard.png)
+
+![Allure Behavior](https://github.com/mmjuwel/PlaywrightWithJava/blob/main/Images/Behavior.png)
+
 
 
 ## Email Notification
 
-
+![Email Notification](https://github.com/mmjuwel/PlaywrightWithJava/blob/main/Images/Email%20Notification.png)
